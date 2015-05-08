@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# Use 44.1 kHz UI sounds
+$(call inherit-product-if-exists, frameworks/base/data/sounds/AudioPackage13.mk)
+
 # Release name
 PRODUCT_RELEASE_NAME := p3110
 
