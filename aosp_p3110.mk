@@ -21,7 +21,7 @@ $(call inherit-product-if-exists, frameworks/base/data/sounds/AudioPackage13.mk)
 PRODUCT_RELEASE_NAME := p3110
 
 # Inherit some common Rom stuff
-$(call inherit-product, vendor/aosp/config/common.mk)
+$(call inherit-product, vendor/nfx/config/common.mk)
 
 $(call inherit-product, device/samsung/p3110/full_p3110.mk)
 
