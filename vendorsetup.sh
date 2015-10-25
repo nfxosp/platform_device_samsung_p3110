@@ -1,1 +1,1 @@
-add_lunch_combo aosp_p3110-userdebug
+add_lunch_combo nfx_p3110-userdebug
